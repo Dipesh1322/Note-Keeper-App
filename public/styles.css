@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+    /* background-color: #ffffff; */
+    background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+
+
+}
+
+header{
+    background-color: #f5ba13;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+header h1{
+    color: #fff;
+    font-family: "Mclaren",cursive;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 2.5rem;
+}
+footer p {
+    color: gray;
+}
+
+.note{
+    background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+    background-color: #e8efef;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 25rem;
+    min-height: 3rem;
+    margin: 1rem auto;
+    position: relative;
+}
+.noteBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.notes{
+    background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+    background-color: #e8efef;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 25rem;
+    min-height: 8rem;
+    margin: 2rem;
+    display: inline-block;
+    position: relative;
+}
+input{
+    background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+    background-color: #e8efef;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 20rem;
+    line-height: 3;
+}
+.headingInput,h1{
+    font-size: 1.3rem;
+    width: 25rem;
+    font-family: "Mclaren",cursive;
+}
+.paraInput{
+    display: inline-block;
+    width: 25rem;
+    margin: 1rem 0; 
+}
+p{
+    display: block;
+}
+.note button{
+    border-radius: 100%;
+    border:3px solid transparent;
+    position: absolute;
+    bottom: -1.2rem;
+    right: 1rem;
+    font-family: "Mclaren",cursive;
+    font-size: 1.7rem;
+    cursor: pointer;
+    background-color: #f5ba13;
+    color: white;
+}
+.notes button{
+    border: none;
+    font-size: 1.2rem;
+    font-family: "Mclaren",cursive;
+    cursor: pointer;
+    color: white;
+    background-color: #f5ba13;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+.note button:hover,.notes button:hover{
+    background-color: rgb(198, 188, 188);
+}
